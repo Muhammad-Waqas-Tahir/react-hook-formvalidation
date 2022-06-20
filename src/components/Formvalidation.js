@@ -84,7 +84,7 @@ const Formvalidation = () => {
         <div className="form-group py-2">
           <input
             className={classNames("form-control", {
-              "is-invalid": errors.email,
+              "is-invalid": errors.password,
             })}
             type="password"
             placeholder="Enter Password"
